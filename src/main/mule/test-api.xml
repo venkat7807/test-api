@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="test-apiFlow" doc:id="1e10b839-7b16-4b9f-95d3-f6ff312715a3" >
 		<http:listener doc:name="Listener" doc:id="efd318c4-882b-4402-bfd0-150467149a3c" path="/test" config-ref="HTTP_Listener_config"/>
-		<logger level="INFO" doc:name="Logger" doc:id="76eace8a-4a77-487f-8dd7-c8fad2079631" message="Flow Started"/>
+		<logger level="INFO" doc:name="Logger" doc:id="76eace8a-4a77-487f-8dd7-c8fad2079631" message="Flow Started - Log"/>
 	</flow>
 </mule>
